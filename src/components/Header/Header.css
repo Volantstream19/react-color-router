@@ -1,0 +1,9 @@
+.header {
+  display: flex;
+  height: 10vh;
+  justify-content: space-around;
+  align-items: center;
+  font-size: 2rem;
+  position: relative;
+  background-color: black;
+}
