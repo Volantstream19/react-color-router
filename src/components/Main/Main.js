@@ -5,7 +5,7 @@ export default function Main() {
   const { red, green, blue } = useParams();
   return (
     <>
-      <div className="main">
+      <div className="main" style={{ backgroundColor: `rgb(${red}, ${green}, ${blue})` }}>
         ({red}, {green}, {blue})
       </div>
     </>

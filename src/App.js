@@ -1,6 +1,7 @@
 import { Route, Switch } from 'react-router-dom';
 import './App.css';
 import Header from './components/Header/Header.js';
+import Main from './components/Main/Main.js';
 
 function App() {
   return (
@@ -8,7 +9,9 @@ function App() {
       <Header />
 
       <Switch>
-        <Route path="/rgb/:red/:green/:blue"></Route>
+        <Route path="/rgb/:red/:green/:blue">
+          <Main />
+        </Route>
       </Switch>
     </div>
   );
